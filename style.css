@@ -8,6 +8,20 @@ body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+#backLinkBox {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#backLinkText {
+    padding: 5px;
+    border: 1px solid red;
+    background-color: #ffffff;
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 /* BEGIN MAIN CONTAINER */
 
