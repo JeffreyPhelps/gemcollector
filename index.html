@@ -1,0 +1,135 @@
+
+<!--  Jeffrey Phelps DU Web Dev Bootcamp Week 4 Homework Gem Collector  -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+      
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Gem Collector</title>
+    
+    <link rel="stylesheet" href="normalize.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest+Guy">
+    <link rel="stylesheet" href="style.css">
+      
+  </head>
+
+<body>
+
+  <div class="container-fluid" id="container">
+
+    <!-- Header Row -->
+    <div class="row" id="header">
+      
+      <div class="col-md-2 col-lg-2" id="titleSpacer"></div>
+
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="titleBox">
+        <div id="titleText">GEM COLLECTOR</div>
+      </div>
+      
+    </div>
+    <!-- End Header Row -->
+
+    <!-- Main Content Row 1 -->
+    <div class="row" id="mainContent1">
+
+      <div class="col-md-2 col-lg-2" id="mainSpacer1"></div>
+
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="mainBox1">
+        
+        <div id="comNum">
+            <p>Computer:<br>$ <span id="randomNumber"></span></p>
+        </div>
+          
+        <div id="buttons">
+          <input type="button" value="PAUSE" id="musicButton" class="button"></input>
+          <input type="button" value="RESET" id="resetButton" class="button"></input>
+        </div>
+
+        <br><br>
+
+        <div id="instructions">
+          <h2 id="insTitle">Instructions:</h2>
+          <ul>
+              <li>The computer choses a random dollar amount.</li>
+              <li>Click on each GEM to collect its hidden value.</li>
+              <li>Match the computer's dollar amount to win.</li>
+              <li>Going over will cost you the game.</li>
+              <li>Clicking 'Reset' will clear wins and losses.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- End Main Content Row 1 -->
+
+    <!-- Gems Row -->
+    <div class="row" id="gemsRow">
+
+        <div class="col-md-2 col-lg-2" id="mainSpacer2"></div>
+
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="gemBox">
+
+          <div id="gems">
+              <img src="images/bluegem.png" class=gemImage id="one" alt="Blue Gem">
+              <img src="images/greengem.png" class=gemImage id="two" alt="Green Gem">
+              <img src="images/redgem.png" class=gemImage id="three" alt="Red Gem">
+              <img src="images/yellowgem.png" class=gemImage id="four" alt="Yellow Gem">
+          </div>
+
+        </div>
+
+    </div>
+    <!-- End Gems Row -->
+
+    <!-- Main Content Row 2 -->
+    <div class="row" id="mainContent2">
+
+      <div class="col-md-2 col-lg-2" id="mainSpacer3"></div>
+
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="mainBox2">
+
+        <div id="userTotal">
+            <h2>Current Value:<br>$ <span id="finalTotal"></span></h2>
+        </div>
+
+        <div><span id="winLossMessage1"></span></div><div><span id="winLossMessage2"></span></div>
+        
+        <div id="winsLosses">
+          <p id="numWins">Wins: <span id="numberWins"></span></p>
+          <p id="numLosses">Losses: <span id="numberLosses"></span></p>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- End Main Content Row 2 -->
+
+
+  </div>
+  <!-- End Main Container -->
+
+  <!-- Begin Footer -->
+  <div id="footerBox">
+      
+    <div id="footer">
+      <p>© Copyright Jeffrey Phelps 2017</p>
+    </div>
+
+  </div>
+  <!-- End Footer -->
+
+  <!-- Remote jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
