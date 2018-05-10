@@ -4,6 +4,8 @@ DU Full-Stack Web Dev Bootcamp 2017/2018 - Week-4 Homework (Gem Collector)
 ## Description
 Put your memory and basic math skills to the test, with this fun and challenging, JavaScript-based, numbers game.
 
+### [Live Site Link](https://jeffreyphelps.github.io/gemcollector/)
+
 ## Built With
 
 * HTML5
