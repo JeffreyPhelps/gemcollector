@@ -10,7 +10,7 @@ Put your memory and basic math skills to the test, with this fun and challenging
 * CSS3
 * JavaScript
 
-### Authors
+## Authors
 
 * **Jeffrey Phelps** - [Jeffrey Phelps](https://github.com/JeffreyPhelps)
 
